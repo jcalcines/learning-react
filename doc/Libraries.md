@@ -1,3 +1,9 @@
+# My App
+
+This Project is based on https://github.com/QuentinWatt/React-for-beginners-tutorial-series/blob/master/src/Components/Navigation.js
+That Course is from 2020 and the technologies listed here have changed considerably
+
+
 ## Yarn
 
 ### Yarn vs NPM
@@ -40,3 +46,11 @@ Need to get icons in your web project quickly? Here’s the fastest and easiest 
 
 ### References
 - [Set Up Fontawesome with React](https://docs.fontawesome.com/web/use-with/react)
+
+
+## React Spring
+
+Never got round it. Something to explore in the future
+
+### References
+- [React Spring](https://www.react-spring.dev/docs/getting-started)

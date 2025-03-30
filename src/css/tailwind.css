@@ -640,9 +640,6 @@
   .resize {
     resize: both;
   }
-  .columns-3 {
-    columns: 3;
-  }
   .items-center {
     align-items: center;
   }
@@ -702,9 +699,6 @@
   }
   .italic {
     font-style: italic;
-  }
-  .overline {
-    text-decoration-line: overline;
   }
   .underline {
     text-decoration-line: underline;
