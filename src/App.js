@@ -1,11 +1,18 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/tailwind.css';
 import HelloWorld from './components/HelloWorld.js';
+import CounterExample from './components/CounterExample.js';
+import Header from './menu/Header.js';
+import Footer from './menu/Footer.js';
+
 
 function App() {
   return (
     <div>
-      <HelloWorld name={"Jose D"}/>
+        <Header />
+        <HelloWorld name={"Jose"}/>
+        <Footer />
+        {/*<CounterExample />*/}
     </div>
   );
 }
