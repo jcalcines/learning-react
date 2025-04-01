@@ -1,18 +1,18 @@
-import logo from './logo.svg';
 import './css/tailwind.css';
-import HelloWorld from './components/HelloWorld.js';
-import CounterExample from './components/CounterExample.js';
-import Header from './menu/Header.js';
-import Footer from './menu/Footer.js';
+import HomePage from './content/HomePage.js';
+import About from './content/About.js';
+import { BrowserRouter, Routes, Route, Link } from "react-router"
 
 
 function App() {
   return (
     <div>
-        <Header />
-        <HelloWorld name={"Jose"}/>
-        <Footer />
-        {/*<CounterExample />*/}
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/about" element={<About />} />
+            </Routes>
+        </BrowserRouter>
     </div>
   );
 }

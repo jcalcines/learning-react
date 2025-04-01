@@ -54,3 +54,9 @@ Never got round it. Something to explore in the future
 
 ### References
 - [React Spring](https://www.react-spring.dev/docs/getting-started)
+
+
+## React Router
+
+### References
+- [Installation guide](https://reactrouter.com/start/declarative/installation)
